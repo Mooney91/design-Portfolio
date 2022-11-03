@@ -1,8 +1,11 @@
 ---
-Logo: assets/img/leaf_256x256.png
-Tagline: My portfolio.
+Logo: assets/img/moon.png
+Tagline: My Portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link to my GitHub repo
+      url: https://github.com/Mooney91/design-Portfolio
       icon: github
+    - title: Link to my GitHub page
+      url: https://github.com/Mooney91
+      icon: star
 ---
