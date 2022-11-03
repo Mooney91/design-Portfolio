@@ -22,7 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: #e4e1d9;
 }
 
 .main {
