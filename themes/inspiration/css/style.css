@@ -9,6 +9,22 @@ ol, ul {
     padding-left: 1.5em;
 }
 
+li:first-child {
+    background-color:yellow;
+}
+
+li:first-child:hover {
+    background-color:red;
+}
+
+li:last-child {
+    background-color:green;
+}
+
+li:last-child:hover {
+    background-color:blue;
+}
+
 .hidden {
     display: none !important;
 }
@@ -76,10 +92,11 @@ body {
 
 .footer a {
     color: #222;
+    text-decoration: none;
 }
 
 .footer .social {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /* Typografy */
