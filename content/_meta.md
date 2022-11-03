@@ -8,4 +8,7 @@ Social:
     - title: Link to my GitHub page
       url: https://github.com/Mooney91
       icon: star
+    - title: Link to my LinkedIn page
+      url: https://www.linkedin.com/in/zachary-mooney-8107a752/
+      icon: linkedin
 ---
