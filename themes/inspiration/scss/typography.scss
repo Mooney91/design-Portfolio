@@ -1,0 +1,68 @@
+/* Under mina övriga imports */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+
+* {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+// POSITION ON THE PAGE
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: $base-margin;
+}
+
+.footer {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: $base-margin;
+}
+
+.header {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: $base-margin;
+}
+
+// TEXT HEIGHT AND SIZE
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number; /* 1.4 * 1.25em vår baseline */
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
+}
