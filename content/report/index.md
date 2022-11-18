@@ -1,9 +1,36 @@
 ---
 Title: Report
-Description: My reports for this course
+Description: My reports for this course'
+Template: report
 ---
 
 My Reports
 ==============
 
-*[kmom01](report/kmom01)
+<div class="kmom-box">
+Kmom01
+</div>
+
+<div class="kmom-box">
+Kmom02
+</div>
+
+<div class="kmom-box">
+Kmom03
+</div>
+
+<div class="kmom-box">
+Kmom04
+</div>
+
+<div class="kmom-box">
+Kmom05
+</div>
+
+<div class="kmom-box">
+Kmom06
+</div>
+
+<div class="kmom-box project">
+Kmom10
+</div>
