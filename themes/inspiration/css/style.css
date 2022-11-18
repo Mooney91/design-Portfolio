@@ -6423,6 +6423,12 @@ template {
   display: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .me {
+    width: 100%;
+    height: auto;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6464,7 +6470,12 @@ pre code {
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "EB Garamond", serif;
   font-weight: 600;
 }
@@ -6536,7 +6547,7 @@ h1 {
 }
 
 .footer a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -6545,6 +6556,212 @@ h1 {
   float: right;
 }
 
+@media only screen and (max-width: 600px) {
+  .me {
+    width: 100%;
+    height: auto;
+  }
+}
+/* report.scss */
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.technologypage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.technologypage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.teknik-box {
+  height: 100px;
+  border-color: #a9a9a9;
+  border-width: 2px;
+  margin: 1px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teknik-box.title {
+  grid-column: span 3;
+  background-color: #c7c4b9;
+  color: #7e7e7e;
+}
+
+.teknik-box.css {
+  grid-column: span 1;
+  background-color: #254bdd;
+  color: #e4e4e4;
+}
+
+.teknik-box.css a {
+  background-color: #254bdd;
+  color: #e4e4e4;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teknik-box.html {
+  grid-column: span 2;
+  background-color: #dd4b25;
+  color: #e4e4e4;
+}
+
+.teknik-box.html a {
+  background-color: #dd4b25;
+  color: #e4e4e4;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teknik-box.js {
+  grid-column: span 2;
+  background-color: #efd81d;
+  color: #000;
+}
+
+.teknik-box.js a {
+  background-color: #efd81d;
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teknik-box.php {
+  grid-column: span 1;
+  background-color: #7377ad;
+  color: #000;
+}
+
+.teknik-box.php a {
+  background-color: #7377ad;
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teknik-box.python {
+  grid-column: span 3;
+  background-color: #3974a2;
+  color: #f7d54e;
+}
+
+.teknik-box.python a {
+  background-color: #3974a2;
+  color: #f7d54e;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teknik-box.git {
+  grid-column: span 1;
+  background-color: #e94e31;
+  color: #f6f2f2;
+}
+
+.teknik-box.git a {
+  background-color: #e94e31;
+  color: #f6f2f2;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teknik-box.sqlite {
+  grid-column: span 2;
+  background-color: #92ceea;
+  color: #013c56;
+}
+
+.teknik-box.sqlite a {
+  background-color: #92ceea;
+  color: #013c56;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+  .technologypage h1 {
+    grid-column: span 1;
+    justify-self: center;
+  }
+  .teknik-box.title {
+    grid-column: span 1;
+  }
+  .teknik-box.css {
+    grid-column: span 1;
+  }
+  .teknik-box.git {
+    grid-column: span 1;
+  }
+  .teknik-box.html {
+    grid-column: span 1;
+  }
+  .teknik-box.js {
+    grid-column: span 1;
+  }
+  .teknik-box.php {
+    grid-column: span 1;
+  }
+  .teknik-box.python {
+    grid-column: span 1;
+  }
+  .teknik-box.sqlite {
+    grid-column: span 1;
+  }
+}
+.wrapper {
+  display: grid;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: 160px auto;
+}
+
+.content {
+  grid-column: 2/2;
+  padding-left: 16px;
+}
+
+.side-bar {
+  grid-column: 1/1;
+  margin-top: 32px;
+  border-right-style: ridge;
+  border-right-color: #000;
+}
+
+@media screen and (max-width: 960px) {
+  .side-bar {
+    display: none;
+  }
+  .content {
+    grid-column: span 2;
+  }
+}
 /* Rest of my stylesheet */
 body {
   background-color: #e4e1d9;
@@ -6552,11 +6769,4 @@ body {
 
 * {
   color: #000;
-}
-
-@media only screen and (max-width: 600px) {
-  .me {
-    width: 100%;
-    height: auto;
-  }
 }
