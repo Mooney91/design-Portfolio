@@ -1,5 +1,5 @@
 ---
-Title: Teknologier
+Title: Technologies
 Description: Teknologier som vi använder på kursen
 Template: technologies
 ---
