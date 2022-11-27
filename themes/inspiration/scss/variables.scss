@@ -1,11 +1,17 @@
-$font-color: #000;
+$base-line-height: 1.4;
+$base-font-size: 1.1em;
+$magic-number: $base-line-height * $base-font-size;
+$base-margin: 0 auto;
+
+// LIGHT MODE
+$font-color: #352208;
 $font-alternative-color: #fff;
 $accent-color: #ee6c4d;
 $background-color: #e4e1d9;
 $background-alternative-color: #e0fbfc;
-
-$base-line-height: 1.4;
-$base-font-size: 1.1em;
-$magic-number: $base-line-height * $base-font-size;
-
-$base-margin: 0 auto;
+$alternative-colour1: #e4e1d9;
+$alternative-colour3: #7b6b43;
+$alternative-colour4: #685634;
+$logo-filter: invert(41%) sepia(22%) saturate(737%) hue-rotate(352deg) brightness(93%) contrast(91%);
+$image-filter: none;
+$code-colour: #352208;

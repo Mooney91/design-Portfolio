@@ -1,0 +1,17 @@
+$base-line-height: 1.4;
+$base-font-size: 1.1em;
+$magic-number: $base-line-height * $base-font-size;
+$base-margin: 0 auto;
+
+/* DARK MODE */
+$font-color: #e4e1d9;
+$font-alternative-color: #fff;
+$accent-color: #ee6c4d;
+$background-color: #121212;
+$background-alternative-color: #e0fbfc;
+$alternative-colour1: #121212; //Nav bar text
+$alternative-colour3: #747572;
+$alternative-colour4: #8c271e;
+$logo-filter: invert(47%) sepia(10%) saturate(100%) hue-rotate(39deg) brightness(95%) contrast(87%);
+$image-filter: brightness(0.8) contrast(1.2);
+$code-colour: #121212;

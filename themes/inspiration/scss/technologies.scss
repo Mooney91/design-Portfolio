@@ -126,6 +126,51 @@
     font-weight: bold;
 }
 
+
+// FOR ANALYSIS PAGES
+
+.teknik-box.colours {
+    grid-column: span 1;
+    background-color: #254bdd;
+    color: #e4e4e4;
+}
+
+.teknik-box.colours a {
+    background-color: #254bdd;
+    color: #e4e4e4;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.teknik-box.design {
+    grid-column: span 1;
+    background-color: #f00;
+    color: #000;
+}
+
+.teknik-box.design a {
+    background-color: #f00;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.teknik-box.load {
+    grid-column: span 1;
+    background-color: #25dd37;
+    color: #1919cd;
+}
+
+.teknik-box.load a {
+    background-color: #25dd37;
+    color: #1919cd;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 960px) {
     .technologypage h1 {
         grid-column: span 1;
@@ -164,6 +209,17 @@
         grid-column: span 1;
     }
 
+    .teknik-box.colours {
+        grid-column: span 1;
+    }
+
+    .teknik-box.design {
+        grid-column: span 1;
+    }
+
+    .teknik-box.load {
+        grid-column: span 1;
+    }
 }
 
 //FOR THE TECHNOLOGY PAGE

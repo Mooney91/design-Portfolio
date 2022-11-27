@@ -1,11 +1,56 @@
+
+.tagline a {
+    font-style: italic;
+    float: right;
+}
+
 .logo {
     img {
         width: 100px;
         height: auto;
         float: left;
+        filter: $logo-filter;
     }
 }
 
-.tagline {
-    font-style: italic;
+// .nav {
+//     display: flex;
+//     justify-content: flex-end;
+//     // flex-wrap: wrap;
+//     // flex-shrink: 3;
+//     width: 100%;
+// }
+
+// #nav {
+//     background-color: $alternativeColour3;
+//     font-weight: bold;
+// }
+
+// #nav ul li a {
+//     color: $alternativeColour1;
+//     font-weight: bold;
+//     font-size: 1.1em;
+// }
+
+// #nav ul li {
+//     color: $alternativeColour1;
+//     font-weight: bold;
+//     font-size: 1.1em;
+// }
+
+.nav {
+    background-color: $alternative-colour3;
+    font-weight: bold;
+
+    li {
+        color: $alternative-colour1;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    a {
+        color: $alternative-colour1;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
 }
