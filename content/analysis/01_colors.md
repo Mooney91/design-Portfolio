@@ -39,16 +39,17 @@ I det här avsnittet kommer resultaten från varje webbplats att visas i sin hel
 ![National Trust](%assets_url%/img/nationaltrust.png){.heritage}
 **Fig.1 - National Trust**
 
-*National Trust* valde följande färgschema: 
-<table style="border-spacing: 4px; border-collapse: separate"> 
-    <tr> 
+*National Trust* valde följande färgschema:
+
+<table style="border-spacing: 4px; border-collapse: separate">
+    <tr>
         <td style="height: 50px; width: 50px; background-color: #ffffff"></td>
         <td style="height: 50px; width: 50px; background-color: #1f1f1f"></td>
         <td style="height: 50px; width: 50px; background-color: #007a3b"></td>
         <td style="height: 50px; width: 50px; background-color: #faf8f8"></td>
         <td style="height: 50px; width: 50px; background-color: #707070"></td>
-    </tr> 
-</table> 
+    </tr>
+</table>
 
 “#007a3b" (det gröna färget) används om accentfärg. Det används för “Donate” länken samt sökfunktionen och viktig information.  Det använder ett kompletterande färgschema. 
 
@@ -64,15 +65,16 @@ Webbplatsens homepage använde inte h1/h2/h3, men stor text samt stora bilder a
 **Fig.2 - English Heritage**
 
 *English Heritage* valde följande färgschema: 
-<table style="border-spacing: 4px; border-collapse: separate"> 
-    <tr> 
+
+<table style="border-spacing: 4px; border-collapse: separate">
+    <tr>
         <td style="height: 50px; width: 50px; background-color: #373737"></td>
         <td style="height: 50px; width: 50px; background-color: #ffffff"></td>
-        <td style="height: 50px; width: 50px; background-color: #414141"></td> 
-        <td style="height: 50px; width: 50px; background-color: #d2d2d1"></td> 
-        <td style="height: 50px; width: 50px; background-color: #D51030"></td> 
-    </tr> 
-</table> 
+        <td style="height: 50px; width: 50px; background-color: #414141"></td>
+        <td style="height: 50px; width: 50px; background-color: #d2d2d1"></td>
+        <td style="height: 50px; width: 50px; background-color: #D51030"></td>
+    </tr>
+</table>
 
 *Color Contrast Accessbility Validator* hade inga problem med färgerna som valdes av denna webbplats. 
 
@@ -86,22 +88,23 @@ Webbplatsen använder bara ett typsnitt - Gill Sans Light. Det är en sans-serif
 **Fig.3 - Historic Environment Scotland**
 
 *Historic Environment Scotland* valde följande färgschema: 
-<table style="border-spacing: 4px; border-collapse: separate"> 
-    <tr> 
-        <td style="height: 50px; width: 50px; background-color: #ffffff"></td> 
-        <td style="height: 50px; width: 50px; background-color: #424241"></td> 
-        <td style="height: 50px; width: 50px; background-color: #007994"></td> 
-        <td style="height: 50px; width: 50px; background-color: #305983"></td> 
-        <td style="height: 50px; width: 50px; background-color: #456a8f"></td> 
-        <td style="height: 50px; width: 50px; background-color: #557799"></td> 
-        <td style="height: 50px; width: 50px; background-color: #00000000"></td> 
-        <td style="height: 50px; width: 50px; background-color: #666666"></td> 
-        <td style="height: 50px; width: 50px; background-color: #d9d9d9"></td> 
-        <td style="height: 50px; width: 50px; background-color: #1b181c"></td> 
-        <td style="height: 50px; width: 50px; background-color: #bbbabb"></td> 
-        <td style="height: 50px; width: 50px; background-color: #262427"></td> 
-    </tr> 
-</table> 
+
+<table style="border-spacing: 4px; border-collapse: separate">
+    <tr>
+        <td style="height: 50px; width: 50px; background-color: #ffffff"></td>
+        <td style="height: 50px; width: 50px; background-color: #424241"></td>
+        <td style="height: 50px; width: 50px; background-color: #007994"></td>
+        <td style="height: 50px; width: 50px; background-color: #305983"></td>
+        <td style="height: 50px; width: 50px; background-color: #456a8f"></td>
+        <td style="height: 50px; width: 50px; background-color: #557799"></td>
+        <td style="height: 50px; width: 50px; background-color: #00000000"></td>
+        <td style="height: 50px; width: 50px; background-color: #666666"></td>
+        <td style="height: 50px; width: 50px; background-color: #d9d9d9"></td>
+        <td style="height: 50px; width: 50px; background-color: #1b181c"></td>
+        <td style="height: 50px; width: 50px; background-color: #bbbabb"></td>
+        <td style="height: 50px; width: 50px; background-color: #262427"></td>
+    </tr>
+</table>
 
 I allmänhet har den här webbplatsen använder ett monokromatiskt färgschema. Det använder mycket blå och vit. Det blåa färget används som ett typ accentfärg mot vit och grå. Svart används också för delar av webbsidan som är viktig men är inte en del av huvudinnehållet till exempel, footer:n. 
 
