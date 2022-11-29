@@ -6432,6 +6432,11 @@ body {
   color: #e4e1d9;
 }
 
+¨ .heritage {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .me {
     width: 100%;
@@ -6607,6 +6612,11 @@ h1 {
 
 .me {
   filter: brightness(0.8) contrast(1.2);
+}
+
+.heritage {
+  width: 100%;
+  height: auto;
 }
 
 .technologypage {
