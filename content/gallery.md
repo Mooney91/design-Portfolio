@@ -7,11 +7,11 @@ Template: gallery
 Gallery
 ================
 
-<div class="gallery-picture"><a href="%base_url%/image/zacmoo_photo.png&save-as=jpg" target="_blank">
+<div class="gallery-picture"><a href="%base_url%/image/zacmoo_photo.jpg" target="_blank">
     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/zacmoo_photo.png&save-as=jpg">
-        <source media="(min-width: 376px)" srcset="%base_url%/image/zacmoo_photo.png?w=667&save-as=jpg">
-        <img src="%base_url%/image/zacmoo_photo.png?w=375&save-as=jpg" alt="Me">
+        <source media="(min-width: 668px)" srcset="%base_url%/image/zacmoo_photo.jpg">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/zacmoo_photo.jpg?w=667">
+        <img src="%base_url%/image/zacmoo_photo.jpg?w=375" alt="Me">
     </picture>
 </a></div>
 <div class="gallery-picture"><a href="%base_url%/image/santa-1280.png&save-as=jpg" target="_blank">
