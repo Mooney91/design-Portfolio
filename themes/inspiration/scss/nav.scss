@@ -1,7 +1,33 @@
+// @function textShadow($precision, $size, $color){
+//     $value: null; 
+//     $offset: 0;
+//     $length: $size * calc(1 / $precision) - 1;
+  
+//     @for $i from 0 through $length {
+//       $offset: $offset + $precision;
+//       $shadow: $offset + px $offset + px $color;
+//       $value: append($value, $shadow, comma);
+//     }
+  
+//     @return $value;
+//   }
+  
+// .title {
+//     color: $font-color;
+//     text-shadow: textShadow(0.25, 3, $alternative-colour3);
+//     text-decoration: none;
+// }
 
-.tagline a {
+
+.title a {
+    text-decoration: none;
+}
+
+.title p {
     font-style: italic;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .logo {
@@ -13,34 +39,16 @@
     }
 }
 
-// .nav {
-//     display: flex;
-//     justify-content: flex-end;
-//     // flex-wrap: wrap;
-//     // flex-shrink: 3;
-//     width: 100%;
-// }
-
-// #nav {
-//     background-color: $alternativeColour3;
-//     font-weight: bold;
-// }
-
-// #nav ul li a {
-//     color: $alternativeColour1;
-//     font-weight: bold;
-//     font-size: 1.1em;
-// }
-
-// #nav ul li {
-//     color: $alternativeColour1;
-//     font-weight: bold;
-//     font-size: 1.1em;
-// }
-
 .nav {
     background-color: $alternative-colour3;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // align-items: right;
+    border-bottom: 4px solid $code-colour;
+    background-image: repeating-linear-gradient(223deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) 1px, transparent 0, transparent 2px);
+    background-size: 20px;
 
     li {
         color: $alternative-colour1;

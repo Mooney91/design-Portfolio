@@ -6440,7 +6440,11 @@ video {
 
 .heritage {
   width: 100%;
-  height: a uto;
+  height: auto;
+}
+
+img:not([alt]) {
+  outline: 4px #f00 dashed !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -6537,6 +6541,8 @@ p {
 
 body {
   line-height: 1.4;
+  background-image: repeating-linear-gradient(315deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) 3px, transparent -19px, transparent 5px);
+  background-size: 6px;
 }
 
 p {
@@ -6549,9 +6555,15 @@ h1 {
   margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
 }
 
-.tagline a {
+.title a {
+  text-decoration: none;
+}
+
+.title p {
   font-style: italic;
-  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
 }
 
 .logo img {
@@ -6564,6 +6576,12 @@ h1 {
 .nav {
   background-color: #7b6b43;
   font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 4px solid #352208;
+  background-image: repeating-linear-gradient(223deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) 1px, transparent 0, transparent 2px);
+  background-size: 20px;
 }
 .nav li {
   color: #e4e1d9;

@@ -15,6 +15,9 @@ video {
 
 .heritage {
     width: 100%;
-    height: a
-    uto;
+    height: auto;
+}
+
+img:not([alt]) {
+    outline: 4px #f00 dashed !important;
 }
