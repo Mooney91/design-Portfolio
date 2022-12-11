@@ -10,4 +10,4 @@ Hello! My name is Zachary Mooney and welcome to my portfolio. I am currently stu
 
 I am originally from the United Kingdom and moved to Sweden three years ago with my, what is now, wife. I live and work with my wife and children in Scania, southern Sweden.
 
-![me](%assets_url%/img/zacmoo_photo.png){.me}
+![me](%assets_url%/img/zacmoo_photo.jpg){.me}
